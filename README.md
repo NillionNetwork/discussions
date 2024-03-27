@@ -1,5 +1,5 @@
 # Discussions
 
-This is the source repo for Github discussions for the [nillion-oss](https://github.com/nillion-oss) organization.
+This is the source repo for Github discussions for the [NillionNetwork](https://github.com/NillionNetwork) organization.
 
-Check out our [Discussions forum](https://github.com/orgs/nillion-oss/discussions)
+Check out our [Discussions forum](https://github.com/orgs/NillionNetwork/discussions)
