@@ -1,0 +1,89 @@
+title: '[Your Project Title]'
+labels: ['demo']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Tell the Nillion developer community about your project:
+  - type: dropdown
+    id: category
+    attributes:
+      label: Show and tell project type
+      description: Are you sharing a bounty submission? An example Nada program? Let us know!
+      options:
+        - Novel Nada Program Example
+        - Community Builder
+        - Nucleus Program Team (FE)
+        - Builder Bounty Submission
+        - Hackathon Project Submission
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: repo
+    attributes:
+      label: Github Repo Link
+    validations:
+      required: true
+  - type: input
+    id: video
+    attributes:
+      label: Video Walkthough Link
+  - type: textarea
+    id: description
+    attributes:
+      label: Project Description
+      description: What did you build? Describe your use case.
+      placeholder: |
+        We built...
+      render: bash
+    validations:
+      required: true
+  - type: textarea
+    id: problems-solved
+    attributes:
+      label: What problems does your project solve? How does it preserve privacy for users?
+      placeholder: |
+        - Problem 1: Solution 1
+        - Problem 2: Solution 2
+        - The project preserves privacy by...
+      render: bash
+  - type: textarea
+    id: nillion-usage
+    attributes:
+      label: How does the project use Nillion? Describe and link to any Nada programs
+      placeholder: |
+        We used Nillion for...
+
+        Nada program link(s)
+        - [link to Nada program]
+        - [link to Nada program]
+      render: bash
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Is there anything else you want to share?
+      description: Feature requests, bugs encountered, any help or support you need from Nillion to keep building?
+  - type: textarea
+    id: social-handles
+    attributes:
+      label: Optional - Link your project and team members' social handles
+      placeholder: 'https://twitter.com/nillionnetwork'
+  - type: textarea
+    id: eth-address
+    attributes:
+      label: Optional - Team ETH Address(es)
+      placeholder: |
+        - 0x...
+        - 0x...
+  - type: markdown
+    attributes:
+      value: |
+        ### Thank you!
+        Thanks for sharing your project with the Nillion developer community through show and tell! 
+          
+        ### Next Steps
+
+        - 📲 Share your Show and Tell post on socials and tag [@NillionNetwork](https://twitter.com/nillionnetwork)
+        - ⭐️ Want to see your project included in the Nillion Showcase of awesome open source projects? Follow [PR instructions here](https://docs.nillion.com/showcase#add-your-project-to-the-list)
+        - 🧢 Want to earn exclusive Nillion swag? [Provide developer feedback here](https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2g8w5axKPSxDb7I6kTPsuSsZwdrxTruNDESqbgilOneHDhb5bJW4fyt2yKwG2Xaj8j--LfpkKB)
