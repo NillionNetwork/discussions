@@ -36,7 +36,6 @@ body:
       description: What did you build? Describe your use case.
       placeholder: |
         We built...
-      render: bash
     validations:
       required: true
   - type: textarea
@@ -47,7 +46,6 @@ body:
         - Problem 1: Solution 1
         - Problem 2: Solution 2
         - The project preserves privacy by...
-      render: bash
   - type: textarea
     id: nillion-usage
     attributes:
@@ -58,7 +56,6 @@ body:
         Nada program link(s)
         - [link to Nada program]
         - [link to Nada program]
-      render: bash
   - type: textarea
     id: feedback
     attributes:
